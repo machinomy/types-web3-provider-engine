@@ -1,6 +1,6 @@
 {
   "name": "types-web3-provider-engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript declaration for web3-provider-engine",
   "main": "index.d.js",
   "types": "index.d.js",
