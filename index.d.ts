@@ -18,7 +18,11 @@ declare module "web3-provider-engine" {
 
   class Web3ProviderEngine {
     on(event: string, handler: Function): void;
-    sendAsync(payload: any, callback: (error: any, response: any) => void): void
+    send(payload: any): void;
+    sendAsync(payload: any, callback: (error: any, response: any) => void): void;
+    addProvider(provider: any): void;
+    start(): void;
+    stop(): void;
   }
 
   export = Web3ProviderEngine
