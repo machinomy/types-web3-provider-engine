@@ -1,6 +1,6 @@
 {
   "name": "@machinomy/types-web3-provider-engine",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TypeScript declaration for web3-provider-engine",
   "types": "index.d.ts",
   "repository": {
