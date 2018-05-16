@@ -2,6 +2,23 @@
 # yarn lockfile v1
 
 
+"@machinomy/types-ethereumjs-tx@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@machinomy/types-ethereumjs-tx/-/types-ethereumjs-tx-0.0.10.tgz#34b6356daf8388b9434834193eda69eea6ab862c"
+  dependencies:
+    "@types/bignumber.js" "^4.0.2"
+    safe-buffer "^5.1.2"
+
+"@machinomy/types-web3@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@machinomy/types-web3/-/types-web3-0.0.7.tgz#4162c820f3d3a9f03fc6bce7e49c5d8d6e375322"
+  dependencies:
+    bignumber.js "^4.0.2"
+
+"@types/bignumber.js@^4.0.2":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/bignumber.js/-/bignumber.js-4.0.3.tgz#e8ce5f28c3025a01c6af7fc6d944494903a9e348"
+
 abstract-leveldown@2.4.1, abstract-leveldown@~2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/abstract-leveldown/-/abstract-leveldown-2.4.1.tgz#b3bfedb884eb693a12775f0c55e9f0a420ccee64"
@@ -52,7 +69,7 @@ async-eventemitter@^0.2.2:
   dependencies:
     async "^2.4.0"
 
-"async-eventemitter@github:ahultgren/async-eventemitter#fa06e39e56786ba541c180061dbf2c0a5bbf951c":
+async-eventemitter@ahultgren/async-eventemitter#fa06e39e56786ba541c180061dbf2c0a5bbf951c:
   version "0.2.3"
   resolved "https://codeload.github.com/ahultgren/async-eventemitter/tar.gz/fa06e39e56786ba541c180061dbf2c0a5bbf951c"
   dependencies:
@@ -670,6 +687,10 @@ bcrypt-pbkdf@^1.0.0:
   resolved "https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.1.tgz#63bc5dcb61331b92bc05fd528953c33462a06f8d"
   dependencies:
     tweetnacl "^0.14.3"
+
+bignumber.js@^4.0.2:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-4.1.0.tgz#db6f14067c140bd46624815a7916c92d9b6c24b1"
 
 bindings@^1.2.1:
   version "1.2.1"
@@ -2227,7 +2248,7 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
-safe-buffer@^5.1.1:
+safe-buffer@^5.1.1, safe-buffer@^5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
 

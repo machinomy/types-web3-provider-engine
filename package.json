@@ -13,7 +13,11 @@
     "url": "https://github.com/machinomy/types-web3-provider-engine/issues"
   },
   "homepage": "https://github.com/machinomy/types-web3-provider-engine#readme",
-  "dependencies": {
+  "peerDependencies": {
     "web3-provider-engine": "^14.0.5"
+  },
+  "dependencies": {
+    "@machinomy/types-ethereumjs-tx": "^0.0.10",
+    "@machinomy/types-web3": "^0.0.7"
   }
 }
